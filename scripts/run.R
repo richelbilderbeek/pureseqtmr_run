@@ -9,5 +9,5 @@ topology <- predict_topology(fasta_filename)
 
 kable(topology)
 
-kable(tally_topology(topology))
+kable(tally_tmhs(topology))
 
