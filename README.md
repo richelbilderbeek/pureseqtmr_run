@@ -1,6 +1,6 @@
 # `pureseqtmr_run`
 
-Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)
+Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 ---------|--------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/richelbilderbeek/pureseqtmr_run.svg?branch=master)](https://travis-ci.org/richelbilderbeek/pureseqtmr_run) 
 `develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/pureseqtmr_run.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/pureseqtmr_run)
