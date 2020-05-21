@@ -1,0 +1,16 @@
+language: r
+dist: bionic
+cache: packages
+
+r_packages:
+  - testthat
+
+r_github_packages:
+  - richelbilderbeek/pureseqtmr
+
+before_script:
+  - Rscript -e "pureseqtmr::install_pureseqtm()"
+
+script:
+  - travis_wait 120 Rscript scripts/run.R
+
