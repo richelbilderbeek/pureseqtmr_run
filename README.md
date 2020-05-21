@@ -25,3 +25,4 @@ no installation is needed :+1:.
   5. Change the alignment FASTA file, called `my_proteome.fas`
   6. See the results in the Travis CI build log
 
+
