@@ -1,27 +1,27 @@
-# `mcbette_run`
+# `pureseqtmr_run`
 
 Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)
 ---------|--------------------------------------------------------------------------------------------------------------------------------------------
-`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/mcbette_run.svg?branch=master)](https://travis-ci.org/richelbilderbeek/mcbette_run) 
-`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/mcbette_run.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/mcbette_run)
+`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/pureseqtmr_run.svg?branch=master)](https://travis-ci.org/richelbilderbeek/pureseqtmr_run) 
+`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/pureseqtmr_run.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/pureseqtmr_run)
 
-Run a Bayesian phylogenetic model comparison using [mcbette](https://github.com/richelbilderbeek/mcbette).
+Run a Bayesian phylogenetic model comparison using [pureseqtmr](https://github.com/richelbilderbeek/pureseqtmr).
 
-## What is `mcbette_run`?
+## What is `pureseqtmr_run`?
 
-`mcbette_run` allows you to do a Bayesian model comparison on a DNA alignment,
+`pureseqtmr_run` allows you to do a Bayesian model comparison on a DNA alignment,
 in an easy-to-use way.
 
-To do so, `mcbette_run` uses the infrastructure of GitHub and Travis CI. 
+To do so, `pureseqtmr_run` uses the infrastructure of GitHub and Travis CI. 
 For simple alignments, this costs nothing. Because everything happens online, 
 no installation is needed :+1:.
 
 You can 
  
- * [watch a `mcbette_run` introduction video on YouTube](https://youtu.be/bLhrrSua8OM)
- * [download that video](http://richelbilderbeek.nl/mcbette.ogv)
+ * [watch a `pureseqtmr_run` introduction video on YouTube](https://youtu.be/bLhrrSua8OM)
+ * [download that video](http://richelbilderbeek.nl/pureseqtmr.ogv)
 
-## How to use `mcbette_run` online?
+## How to use `pureseqtmr_run` online?
 
   1. Get a GitHub account
   2. Get a Travis CI account (one can simply log in with GitHub)
@@ -32,20 +32,20 @@ You can
 
 ## Example
 
-`mcbette_run` starts from an alignment:
+`pureseqtmr_run` starts from an alignment:
 
 ![A DNA alignment](pics/alignment.png)
 
-`mcbette_run` estimates the evidence (also known as marginal likelihood)
+`pureseqtmr_run` estimates the evidence (also known as marginal likelihood)
 of each model.
 
 ```{r}
-mcbette::est_marg_liks(
-  fasta_filename = system.file("extdata", "primates.fas", package = "mcbette")
+pureseqtmr::est_marg_liks(
+  fasta_filename = system.file("extdata", "primates.fas", package = "pureseqtmr")
 )
 ```
 
-Here is the `mcbette_run` output of that alignment:
+Here is the `pureseqtmr_run` output of that alignment:
 
 ```
 |site_model_name |clock_model_name   |tree_prior_name                | marg_log_lik| marg_log_lik_sd|    weight|
