@@ -16,7 +16,7 @@ License: GPL-3
 LazyData: true
 RoxygenNote: 7.0.2
 VignetteBuilder: knitr
-URL: https://github.com/richelbilderbeek/pureseqtmr_run
+URL: https://github.com/richelbilderbeek/pureseqtmr_run/
 BugReports: https://github.com/richelbilderbeek/pureseqtmr_run/issues
 Language: en-US
 Encoding: UTF-8
