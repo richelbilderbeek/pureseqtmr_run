@@ -6,7 +6,6 @@ r_packages:
   - knitr
 
 r_github_packages:
-  - richelbilderbeek/pureseqtmr
 
 before_script:
   - Rscript -e "pureseqtmr::install_pureseqtm()"
