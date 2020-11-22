@@ -18,6 +18,8 @@ RoxygenNote: 7.0.2
 VignetteBuilder: knitr
 URL: https://github.com/richelbilderbeek/pureseqtmr_run/
 BugReports: https://github.com/richelbilderbeek/pureseqtmr_run/issues
+Imports:
+    pureseqtmr
 Language: en-US
 Encoding: UTF-8
 SystemRequirements: PureseqTM (https://github.com/PureseqTM/pureseqTM_package)
