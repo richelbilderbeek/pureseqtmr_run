@@ -13,7 +13,6 @@ Description: Proteins reside in either the cell plasma of in the
     'pureseqtmr' allows one to use 'PureseqTM' from R.
     Here, we run 'pureseqtmr' on 'my_proteome.fasta'
 License: GPL-3
-LazyData: true
 RoxygenNote: 7.0.2
 VignetteBuilder: knitr
 URL: https://github.com/richelbilderbeek/pureseqtmr_run/
