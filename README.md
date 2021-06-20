@@ -1,9 +1,9 @@
 # `pureseqtmr_run`
 
-Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
+Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.com)
 ---------|--------------------------------------------------------------------------------------------------------------------------------------------
-`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/pureseqtmr_run.svg?branch=master)](https://travis-ci.org/richelbilderbeek/pureseqtmr_run) 
-`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/pureseqtmr_run.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/pureseqtmr_run)
+`master` |[![Build Status](https://travis-ci.com/richelbilderbeek/pureseqtmr_run.svg?branch=master)](https://travis-ci.com/richelbilderbeek/pureseqtmr_run) 
+`develop`|[![Build Status](https://travis-ci.com/richelbilderbeek/pureseqtmr_run.svg?branch=develop)](https://travis-ci.com/richelbilderbeek/pureseqtmr_run)
 
 Determine the topology of a membrane protein using [pureseqtmr](https://github.com/richelbilderbeek/pureseqtmr).
 
